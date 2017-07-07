@@ -1,18 +1,18 @@
 'use strict';
 
-*// getUserMedia API is called. /*
+// getUserMedia API is called. 
 
 navigator.getUserMedia = navigator.getUserMedia ||
     navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
 
-*// The constraints arguments specifies what media to get. /*
+// The constraints arguments specifies what media to get. 
 
 var constraints = {
   audio: false,
   video: true
 };
 
-*// The video stream from the webcam is set as the source of the video element. /*
+// The video stream from the webcam is set as the source of the video element. 
 
 var video = document.querySelector('video');
 
