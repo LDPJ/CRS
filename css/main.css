@@ -6,3 +6,17 @@ video {
   max-width: 100%;
   width: 320px;
 }
+
+// Added CSS filters to the video element.
+
+video {
+  -webkit-filter: blur(4px) invert(1) opacity(0.5);
+}
+
+// Added SVG filters to the video element.
+
+video {
+  filter: hue-rotate(180deg) saturate(200%);
+  -moz-filter: hue-rotate(180deg) saturate(200%);
+  -webkit-filter: hue-rotate(180deg) saturate(200%);
+}
