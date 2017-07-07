@@ -16,6 +16,8 @@ var constraints = {
 
 var video = document.querySelector('video');
 
+// The stream object passed to getUserMedia() is in global scope, so you can inspect from the browser console.
+
 function successCallback(stream) {
   window.stream = stream; // stream available to console
   if (window.URL) {
